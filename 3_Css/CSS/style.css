@@ -1,0 +1,521 @@
+/* 4 - External */
+body{
+    padding-bottom: 500px;
+}
+
+h3{
+   color: green;
+   font-size: 35px;
+}
+
+p{
+    /* color: blueviolet;  */
+    font-size: 30px;
+}
+
+H1{
+    background-color: forestgreen;
+    color: turquoise;
+    font-size: 55px;
+}
+
+/* Classes */
+.paragraf{
+    background-color: rebeccapurple;
+    padding: 1px;
+    color: gold;
+}
+
+/* Ids */
+#titolo_exclusivo{
+    background-color: blue;
+    color:darkred;
+    padding: 10px;
+    
+}
+
+/* ordem Seletores  */
+h2{
+    border-bottom: 2px solid red; /*Tags*/
+}
+
+.algum_titulo{
+    border-bottom: 4px solid blue; /* class*/
+}
+
+#titulo{
+    border-bottom: 6px solid green; /* ids*/
+}
+
+/* Nomes de cores, utilizando nome */ 
+.Color-name{
+    color: crimson;
+}
+
+/* Hex */
+.hex{
+    color: #55a460;
+}
+.hex_2{
+    color: #0ffa99
+}
+
+/* Aprofundando no hex */
+.simple-hex{
+    color: #af0;
+}
+
+.simple-hex-2{
+    color: #c42;
+}
+
+/* RGB */
+.rgb{
+    color: rgb(122, 97, 0);
+}
+
+.rgb-2{
+    color: rgb(45, 88, 6);
+}
+
+/* RGBA */
+.rgba{
+    color: rgba(250, 20, 250)
+}
+
+/* HSL */
+.hsl{
+    color: hsl(277, 99%, 9%)
+}
+.hsl-2{
+    color: hsl(9, 90%, 56%)
+}
+
+/* Background-color */
+.bg{
+    background-color: #000;
+    color: greenyellow;
+}
+
+.bg-2{
+    background-color: yellowgreen;
+    color: #800;
+    border-bottom: 0px;
+}
+
+/* Background opacity */
+.bg-opacity{
+    background-color: yellow;
+    opacity: 0.4;
+}
+
+.bg-opacity-2{
+    background-color: #800;
+    color:#000;
+    opacity: 0.7;
+}
+
+/* Rgb com opacidade */
+.rgb-opacity{
+    background-color: rgb(20, 200, 30, 0.5);
+    color: darkblue;
+}
+
+/* BG-Imagem */
+.bg-image{
+    background-image: url(../img/estrelas.jpg);
+    color: #fff;
+    padding: 10px;
+}
+
+/* centralizando bg image */
+.not-center-bg,
+.center-bg{
+    width: 400px;
+    height: 400px;
+    background-image: url(../img/chve.jpg);
+}
+
+.center-bg{
+    background-position: center;
+    background-size: cover;
+}
+
+/* largura e  altura */
+.height-width{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+.height-width-2{
+    height: 100px;
+    background-color: #0ff;
+}
+
+/* Padding */
+.without-padding,
+.padding{
+    background-color: #af3;
+    color: #700;
+}
+
+.padding{
+    background-color: #af0;
+    padding: 10px;
+}
+
+/* Padding individual */
+.padding-individual{
+    background-color: #e90;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+/* Shorthand padding */
+.shorthand-padding{
+    background-color: #663;
+    color: #e90;
+    padding: 10px 5px 20px 12px;
+}
+
+.shorthand-padding-2{
+    background-color: #ee4;
+    color: #000;
+    padding: 10px 20px;
+    /* padding: 10px 20px 10px 20px; */
+}
+
+/* Padding com width */
+.without-border-box{
+    background-color: #800;
+    color: #000;
+    width: 400px;
+    padding: 50px;
+}
+
+.border-box{
+    background-color: #700;
+    color: #000;
+    width: 400px;
+    padding: 50px;
+    box-sizing: border-box;  /* para manter o valororiginal do elemento */
+}
+
+/* Border */
+.border{
+    border: 5px solid #493;
+    padding: 5px;
+}
+
+.border-2{
+    border: 5px dotted #906;
+    padding: 10px;
+}
+
+/* Bordas individuais */
+.border-left{
+    border-left: 5px solid red ;
+    background-color: #675;
+    padding: 20px;
+}
+
+.border-bottom{
+    border-bottom: 5px double #900;
+    background-color: lightsalmon;
+    padding: 20px;
+}
+
+/* Borda arredondada */
+.rounded-p{
+    border: 5px solid navy;
+    background-color: #0ff;
+    color: #310;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.rounded-p-2{
+    background-color: #2aff;
+    color: white;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+/* Margens */
+.margin{
+    background-color: #ff9;
+    color: #000;
+    margin: 10px;
+}
+
+.margin-top{
+    margin-top: 30px;
+    background-color: #aff;
+    padding: 10px;
+}
+
+.margin-shorthand{
+   background-color: #aff6;
+   padding: 20px;
+   margin: 10px 15px 16px 20px;
+}
+
+/* Box model */
+.box-model{
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid #a84;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+}
+
+/* Desafio 3 */
+#teste-boxmodel{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 5px solid #a11f; 
+    outline: 5px solid #f23a;
+    background-color: #031;
+}
+
+.texto{
+    background: linear-gradient(-299deg, rgb(255, 0, 85), rgb(93, 6, 115));
+    border: none;
+}
+
+/* Alinhamento de texto */
+.texto-adireira{
+    text-align: right;
+}
+
+.texto-center{
+   text-align: center;
+   width: 300px;
+   border: 10px solid blue; 
+   padding: 20px;
+}
+
+.h22{
+    border-bottom: none;
+}
+
+/* Text decoration */
+.underline{
+   text-decoration: underline; 
+}
+
+.line-trough{
+    text-decoration: line-through;
+}
+
+.remover-undeline{
+    text-decoration: none;
+    color: firebrick;
+}
+
+/* Text transform */
+.upper{
+    text-transform: uppercase;
+}
+
+.lower{
+    text-transform: lowercase;
+}
+
+/* letter-spacing */
+.spacing{
+    letter-spacing: 5px;
+    border-bottom: none;
+}
+
+/* Fontes */
+.serif{
+    font-family: Georgia;
+}
+
+.sans-serif{  
+    font-family: helvetica;
+}
+
+.monospace{
+    font-style: "curier New";
+}
+
+.cursive{
+    font-family: cursive;
+}
+
+.fantasy{
+    font-family: fantasy;
+}
+
+/* Estilo de fontes */
+.italic{
+    font-style: italic;
+}
+.oblique{
+    font-style: oblique;
+}
+
+/* Font-weight */
+.thin,
+.bold,
+.bolder{
+    font-family: Helvetica;
+}
+
+.thin{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Font Size */
+.small{
+    font-size: 16px;
+}
+
+.big{
+    font-size: 78px;
+}
+
+/* Display */
+.inline-box{ /* div */
+    width: 50px;
+    height: 50px;
+    background-color: #a443;
+    margin: 10px;
+    display: inline-block;
+}
+
+.block{  /* span */
+    width: 50px;
+    height: 50px;
+    background-color: #f32;
+    margin: 10px;
+    display: block;
+}
+
+/* Escondendo elemento */
+.invisible{
+    display: none;
+}
+
+/* static */
+.static{
+    position: static;
+    background-color: #234;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+}
+
+/* relative */
+.relative{
+    position: relative;
+    background-color: #229;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 100px;
+    left: 40px;
+}
+
+/* absolute */
+.absolute{
+    position: absolute;
+    background-color: #829;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    top: 2px;
+    right: 2px;
+}
+
+/* Relative com absolute */
+.relative-conteiner{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #310;
+    margin-top: 120px;
+    position: relative; 
+}
+
+.absolute-1, 
+.absolute-2{
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    position: absolute;
+}
+
+.absolute-1{
+    top: 10px;
+    left: 10px;
+}
+
+.absolute-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+/* fixed */
+.fixed{
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+    border: 4px solid yellow;
+    position: fixed;
+    top: 10px;
+    right: 50px;
+}
+
+/* sticky */
+.sticky{
+    width: 100px;
+    height: 100px;
+    background-color: #390;
+    border: 4px solid #9009;
+    position: sticky;
+    top: 10px;
+}
+
+/* z-inde */
+.absolute-3, 
+.absolute-4,
+.absolute-5{
+    width: 50px;
+    height: 50px;
+    background: #031;
+    position: absolute;
+}
+
+.absolute-3{
+    top: 0;
+    left: 0px;
+    background-color: #0ff;
+    z-index: 3;
+}
+.absolute-4{
+    top: 10px;
+    left: 10px;
+    background-color: #af9;
+    z-index: 1;
+}
+.absolute-5{
+    top: 40px;
+    left: 40px;
+    background-color: #afe;
+    z-index: 2;
+}

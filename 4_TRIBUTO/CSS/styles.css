@@ -1,0 +1,108 @@
+html {
+  margin: 0;
+  font-family: helvetica;
+  background-color: #ddd;
+}
+
+.container {
+  max-width: 1100px;
+  background-color: #fff;
+  position: relative;
+  margin: 50px auto;
+  padding: 20px 50px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/* cabeçalho */
+.Cabeçalho {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 40px;
+  color: #ef0b0b;
+  text-decoration: underline;
+}
+
+.main-paragraph {
+  font-style: italic;
+}
+
+/* imagem de destaque */
+.featured-image {
+  text-align: center;
+  margin-top: 30px;
+}
+
+img {
+  height: 400px;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+/* biografia */
+.biografia-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+/* quotes (comentarios*/
+.quotes-container {
+  background-color: #7e7c7c;
+  padding: 15px;
+}
+
+.quotes-container blockquote {
+  font-weight: bold;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.quotes-container p {
+  font-style: italic;
+  padding: 2px 0;
+}
+
+/* Esclusividades */
+.esclusivida-container {
+  padding: 25px 0;
+  margin: 25px 0;
+  border-top: 1px dashed #ddd;
+  border-bottom: 1px dashed #ddd;
+}
+
+.esclusivida-container h2 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.esclusivida-container li {
+  padding: 9px;
+}
+
+/* Imagem bold */
+.img-bold {
+  text-align: center;
+}
+
+/* mais informações */
+.moreinfo-container {
+  font-size: 15px;
+}
+
+.moreinfo-container p {
+  font-size: 15px;
+  background-color: hotpink;
+}
